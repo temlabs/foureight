@@ -20,6 +20,7 @@ export interface Options {
   filterFn: (node: FileNode) => boolean
   mapFn: (node: FileNode) => void
   order: OrderEntries[]
+  maxDepth: number
 }
 
 type DataWrapper = {
@@ -173,6 +174,15 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
     folderPath = joinSegments(fullPath ?? "", node.name)
   }
 
+  const shouldShowIcon = (depth: number): boolean =>
+    opts.maxDepth < 0 ? true : depth < opts.maxDepth
+  const satisfiesMaxDepth = (depth: number): boolean =>
+    opts.maxDepth < 0 ? true : depth <= opts.maxDepth
+
+  if (!satisfiesMaxDepth(node.depth)) {
+    return <></>
+  }
+
   return (
     <>
       {node.file ? (
@@ -188,20 +198,24 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
             // Node with entire folder
             // Render svg button + folder name, then children
             <div class="folder-container">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="12"
-                height="12"
-                viewBox="5 8 14 8"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="folder-icon"
-              >
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
+              {shouldShowIcon(node.depth) ? (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  viewBox="5 8 14 8"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="folder-icon"
+                >
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              ) : (
+                <></>
+              )}
               {/* render <a> tag if folderBehavior is "link", otherwise render <button> with collapse click event */}
               <div key={node.name} data-folderpath={folderPath}>
                 {folderBehavior === "link" ? (

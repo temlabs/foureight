@@ -19,6 +19,7 @@ import DesktopOnly from "./DesktopOnly"
 import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
+import OpenExplorer from "./OpenExplorer"
 
 export {
   ArticleTitle,
@@ -32,6 +33,7 @@ export {
   Spacer,
   TableOfContents,
   Explorer,
+  OpenExplorer,
   TagList,
   Graph,
   Backlinks,
