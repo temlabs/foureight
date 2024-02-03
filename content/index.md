@@ -1,16 +1,12 @@
 ---
 title: About
-tags:
-  - temi
-  - list
-  - place
+tags: []
 ---
+Hey friend 👋🏽!
 
-Hey!
+I'm Temi/Isaac and it is my great pleasure to welcome you to foureight.
 
-I'm Temi (though you may know me as Isaac) and it's my great pleasure to welcome you to foureight.
-
-foureight is the intersection of my two central passions in life- creating and understanding. As such, I enjoy collecting, exchanging and reflecting on words, sounds, art and whatever else I find inspiring. This space is my attempt to weave together the things that have given me life, in the hope that they might do something for you too.
+foureight is the intersection of my two central passions in life- creating and understanding. As such, I enjoy collecting, exchanging and reflecting on words, sounds, art and whatever else I find inspiring. This space is my attempt to weave together the things that have given me life, in the hope that they might do the same for you.
 
 I'm honoured that you'd decide to spend some time here with me, and I hope you'll have a good time.
 

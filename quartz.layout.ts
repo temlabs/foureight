@@ -36,7 +36,7 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.Darkmode(),
     Component.DesktopOnly(
       Component.OpenExplorer({
-        folderDefaultState: "open",
+        folderDefaultState: "collapsed",
         folderClickBehavior: "link",
         title: undefined,
       }),
@@ -71,7 +71,7 @@ export const defaultListPageLayout: PageLayout = {
     // Component.Darkmode(),
     Component.DesktopOnly(
       Component.OpenExplorer({
-        folderDefaultState: "open",
+        folderDefaultState: "collapsed",
         folderClickBehavior: "link",
         title: undefined,
       }),

@@ -3,5 +3,4 @@ title: Journals
 tags:
   - temi
 ---
-
-This is where my journals are
+Here you'll find my reflections on life in general.
