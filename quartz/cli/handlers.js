@@ -479,7 +479,7 @@ export async function handleRestore(argv) {
  * @param {*} argv arguments for `sync`
  */
 export async function handleSync(argv) {
-  const contentFolder = path.join(cwd, "content/foureight")
+  const contentFolder = path.join(cwd, "./content/foureight")
   // const contentFolder = path.join(cwd, argv.directory)
   console.log(chalk.bgGreen.black(`\n Quartz v${version} \n`))
   console.log("Backing up your content")
