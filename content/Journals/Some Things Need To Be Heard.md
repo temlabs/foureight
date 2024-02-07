@@ -6,16 +6,16 @@ tags:
 description: Some things need to be heard to be believed
 date: 2022-12-15
 ---
+
 ## It's Not Your Fault
 
 There's a scene in [[Good Will Hunting]] that moved me to tears the first time I watched it.
 
 ![](https://www.youtube.com/watch?v=ZQht2yOX9Js)
 
+“It’s not your fault Will”.
 
-“It’s not your fault Will”. 
-
-The first time Sean says this, Will dismisses it with an assured smile. But it’s overly assured. You can tell he’s working hard, working hard to convince himself. 
+The first time Sean says this, Will dismisses it with an assured smile. But it’s overly assured. You can tell he’s working hard, working hard to convince himself.
 
 Sean, knows this and projects those tender words again.
 
@@ -31,7 +31,7 @@ The words feels like the crashing of waves against a sea wall. They are searchin
 
 “No Will, you understand what I’m saying? It’s not your fault”.
 
-“Why do you keep…” will musters. 
+“Why do you keep…” will musters.
 
 Every time the words come, Will's resolve is weakened.
 
@@ -39,13 +39,13 @@ He knows it is the truth because he finds himself in need of it, thirsty for it.
 
 ## Every Word, a Little Deeper
 
-Sean repeated the same words, but every time they went forth, they achieved a little bit more and went just a little bit further into Will's heart. 
+Sean repeated the same words, but every time they went forth, they achieved a little bit more and went just a little bit further into Will's heart.
 
 Over the course of our lives, don't we, like Will also cling to wicked beliefs about ourselves? I realise that certain words must come from without, and from credible people who love us. There must be a voice to combat our own which all too is full of untruth. It must be heard audibly, that we might believe it, because it is not enough to merely know.
 
 I once grabbed lunch with a friend on a windy day in London. At the time, I was in the throes of a faltering relationship that was struggling to stay afloat.
 
-"Do you feel loved and valued by her?", my friend had asked. 
+"Do you feel loved and valued by her?", my friend had asked.
 
 I couldn't explain to you just how much the question caught me off guard. I tried to gather all of the confidence I could hold onto, but my "Yes, of course!" was hesitant at best. I didn't know whether I was reassuring my concerned friend, or whether I was reassuring myself.
 
@@ -68,15 +68,17 @@ No one who knew me well had really ever spoken to me like that before. I was und
 It shouldn't surprise us then, that the bible tells us:
 
 > So then faith _comes_ by hearing, and hearing by the word of God.
+>
 > - **Romans 10:17**
 
 Faith is created in words spoken. I've found this to be true man times over. Growing up, we don't really choose what we believe about ourselves. We become products of our circumstances and it isn't our fault. But we needn't be stuck in our ways. In order to believe the truth about ourselves, all we need to do is hear the truth about ourselves. When you know the truth about yourself, you're able to live freely.
 
-Therefore, it's important to surround ourselves with people who know us, and I mean _really_ know us, and love us all the same. But even the best of people will get it wrong on occasion.
+Therefore, it's important to surround ourselves with people who know us, and I mean _really_ know us, and love us all the same. But even still, the best of people will get it wrong on occasion.
 
-I therefore reason that there is no one more qualified to speak to us about ourselves, than God.
+And on that count, I reason that there is no one more qualified to speak to us about ourselves than God.
 
 Since:
+
 - He **understands** us, having Himself become a man.
 - He **loves** us at our worst, enough to die for us.
 - He **knows** us and sees us- even the hairs on our head our numbered.
