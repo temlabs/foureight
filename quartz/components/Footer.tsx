@@ -13,11 +13,11 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
+        <p>With love, The Hopeful Art House</p>
         <p>
-          Want to get in touch? Email me at{" "}
+          If you'd like to get in touch, I'd love to hear from you. Email me at{" "}
           <a href={"mailto:isaacxhopes@gmail.com"}>isaacxhopes@gmail.com</a>
         </p>
-        <p>With love, The Hopeful Art House</p>
         {/* <p>
           Created with <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>, © {year}
         </p>

@@ -2,4 +2,4 @@
 title: Journals
 tags: []
 ---
-Here you'll find my reflections on life in general.
+Streams of thoughts that have nowhere else to go

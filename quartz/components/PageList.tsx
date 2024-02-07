@@ -40,6 +40,8 @@ export function PageList({ cfg, fileData, allFiles, limit }: Props) {
       {list.map((page) => {
         const title = page.frontmatter?.title
         const tags = page.frontmatter?.tags ?? []
+        const description = page.frontmatter?.description
+        const coverImg = page.frontmatter?.coverImg
 
         return (
           <li class="section-li">
@@ -49,14 +51,31 @@ export function PageList({ cfg, fileData, allFiles, limit }: Props) {
                   <Date date={getDate(cfg, page)!} locale={cfg.locale} />
                 </p>
               )}
-              <div class="desc">
+              <div class="desc" style={{ display: "flex", flexDirection: "column", gap: "0.1em" }}>
                 <h3>
                   <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
                     {title}
                   </a>
                 </h3>
+                {description ? (
+                  <h4 style={{ opacity: 0.5, marginTop: 0 }}>{description}</h4>
+                ) : (
+                  <></>
+                )}
+                <ul class="tags" style={{ flexDirection: "row", gap: "0.1em" }}>
+                  {tags.map((tag) => (
+                    <li>
+                      <a
+                        class="internal tag-link"
+                        href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
+                      >
+                        #{tag}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul class="tags">
+              {/* <ul class="tags">
                 {tags.map((tag) => (
                   <li>
                     <a
@@ -67,7 +86,8 @@ export function PageList({ cfg, fileData, allFiles, limit }: Props) {
                     </a>
                   </li>
                 ))}
-              </ul>
+              </ul> */}
+              {coverImg ? <img src={coverImg} /> : <></>}
             </div>
           </li>
         )

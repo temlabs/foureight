@@ -6,15 +6,26 @@ ul.section-ul {
   padding-left: 0;
 }
 
+h4 {
+  margin: 0;
+}
+
+.tags {
+  display: "flex";
+  font-size: small;
+}
+
 li.section-li {
   margin-bottom: 1em;
 
   & > .section {
     display: grid;
     grid-template-columns: 6em 3fr 1fr;
+    column-gap: 1em;
 
     @media all and (max-width: $mobileBreakpoint) {
-      & > .tags {
+      .tags {
+        /* This now targets all .tags within .section */
         display: none;
       }
     }
