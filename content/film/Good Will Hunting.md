@@ -2,6 +2,7 @@
 title: Good Will Hunting
 tags: 
 release year: "1997"
+coverImg: https://imusic.b-cdn.net/images/item/original/961/5060223761961.jpg?good-will-hunting-2011-good-will-hunting-dvd&class=scaled&v=1447863328
 ---
 Everyone knows that one scene 😂
 

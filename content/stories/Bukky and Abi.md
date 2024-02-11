@@ -8,7 +8,7 @@ date: 2019-01-17
 
 “Bukky. Are you being for real? Are you breaking up with me?”, Abi asks.
 
-She speaks in a concerned tone, similar to the one she would use on those hard days that ended with me withdrawing completely. On those days, she would long for access to my thoughts, access to me. And she usually got it. Truthfully, that voice could fizzle away the my most callous moods and cause me to surrender every burden to the authority of her warmth. But now, it sounds cold, contaminated with a mix of fear and contention. She knows these are the final minutes of our relationship, but her stubbornness won’t allow her to accept it that easily.
+She speaks in a concerned tone, similar to the one she would use on those hard days that ended with me withdrawing completely. On those days, she would long for access to my thoughts, access to me. And she usually got it. Truthfully, that voice could fizzle away my most callous moods and cause me to surrender every burden to the authority of her warmth. But now, it sounds cold, contaminated with a mix of fear and contention. She knows these are the final minutes of our relationship, but her stubbornness won’t allow her to accept it that easily.
 
 “Yes Abi, I am”, I reply. “Let’s be honest, this is going to keep on happening and I’m tired of feeling like a prisoner.”
 

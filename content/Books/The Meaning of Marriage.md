@@ -1,13 +1,16 @@
 ---
-title: The Meaning of Marriage
+title: Meaning of Marriage, The
 tags:
   - relationships
   - marriage
-  - christianity
   - culture
   - non-fiction
 author: Keller, Tim
+coverImg: https://m.media-amazon.com/images/I/411PRD13nhL._SY445_SX342_.jpg
+date: 2020-09-26
 ---
+<img src="https://m.media-amazon.com/images/I/411PRD13nhL._SY445_SX342_.jpg" alt="The Meaning of Marriage book cover" height="200">
+
 This is book is a personal all-time favourite. I have read it through a couple of times and still come back to it.
 
 I began to spend time studying marriage when the following occurred to me:

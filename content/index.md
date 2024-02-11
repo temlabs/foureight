@@ -6,7 +6,7 @@ tags: []
 
 Hey friend 👋🏽!
 
-I'm Temi/Isaac and it is my great pleasure to welcome you to foureight.
+I'm Temi/Isaac and it’s my great pleasure to welcome you to foureight.
 
 foureight is the intersection of two central passions of mine - creating and understanding. As such, I enjoy collecting, exchanging and reflecting on words, sounds, art and whatever else I find inspires me to do these. This space is my attempt to weave together the things that have given me life, in the hope that they might do the same for you too.
 
