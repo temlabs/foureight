@@ -25,12 +25,27 @@ export function byDateAndAlphabetical(
   }
 }
 
+export function byAlphabetical(
+  cfg: GlobalConfiguration,
+): (f1: QuartzPluginData, f2: QuartzPluginData) => number {
+  return (f1, f2) => {
+    // otherwise, sort lexographically by title
+    const f1Title = f1.frontmatter?.title.toLowerCase() ?? ""
+    const f2Title = f2.frontmatter?.title.toLowerCase() ?? ""
+    return f1Title.localeCompare(f2Title)
+  }
+}
+
 type Props = {
   limit?: number
 } & QuartzComponentProps
 
 export function PageList({ cfg, fileData, allFiles, limit }: Props) {
-  let list = allFiles.sort(byDateAndAlphabetical(cfg))
+  const titlesToSortAlphabetically = ["books"]
+  const sortAlphabetically = titlesToSortAlphabetically.includes(fileData.frontmatter?.title ?? "")
+  let list = allFiles
+    .sort(sortAlphabetically ? byAlphabetical(cfg) : byDateAndAlphabetical(cfg))
+    .filter((f) => !(f?.frontmatter && f.frontmatter["hide"]))
   if (limit) {
     list = list.slice(0, limit)
   }

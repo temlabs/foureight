@@ -5,7 +5,9 @@ import { classNames } from "../util/lang"
 
 function Backlinks({ fileData, allFiles, displayClass }: QuartzComponentProps) {
   const slug = simplifySlug(fileData.slug!)
-  const backlinkFiles = allFiles.filter((file) => file.links?.includes(slug))
+  const backlinkFiles = allFiles.filter(
+    (file) => !(file.frontmatter && file.frontmatter["hide"]) && file.links?.includes(slug),
+  )
   return (
     <div class={classNames(displayClass, "backlinks")}>
       <h3>Backlinks</h3>

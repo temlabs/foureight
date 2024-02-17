@@ -15,8 +15,9 @@ export default ((opts?: Options) => {
         <hr />
         <p>With love, The Hopeful Art House</p>
         <p>
-          If you'd like to get in touch, I'd love to hear from you. Email me at{" "}
-          <a href={"mailto:isaacxhopes@gmail.com"}>isaacxhopes@gmail.com</a>
+          If you'd like to get in touch, shoot me an email at{" "}
+          <a href={"mailto:isaacxhopes@gmail.com"}>isaacxhopes@gmail.com</a>. I'd be delighted to
+          hear from you.
         </p>
         {/* <p>
           Created with <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>, © {year}

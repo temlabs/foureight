@@ -3,6 +3,7 @@ title: Murder
 tags:
   - poem
 date: 2020-08-09
+hide: "true"
 ---
 Would you believe me if I told you I once killed a man?
 

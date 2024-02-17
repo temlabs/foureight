@@ -53,7 +53,9 @@ export default ((userOpts?: Partial<Options>) => {
 
     // Construct tree from allFiles
     fileTree = new FileNode("")
-    allFiles.forEach((file) => fileTree.add(file))
+    allFiles.forEach(
+      (file) => !(file.frontmatter && file.frontmatter["hide"]) && fileTree.add(file),
+    )
 
     // Execute all functions (sort, filter, map) that were provided (if none were provided, only default "sort" is applied)
     if (opts.order) {

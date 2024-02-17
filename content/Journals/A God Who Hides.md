@@ -54,7 +54,7 @@ God invites us to know Him first by giving us grace. Jesus Christ is called the 
 > the free and unmerited favour of God, as manifested in the salvation of sinners and the bestowal of blessings.
 
  > but \[the grace of God] has now been revealed by the appearing of our Savior Jesus Christ, who has abolished death and brought life and immortality to light through the gospel  
- > **1 Timothy:10
+ > **2 Timothy 1:10**
 
 In Jesus, the common man receives the blessing, ability and right to know God. He doesn't deserve it, but through faith, He is given the tools and the legal right to start relating with God on this side of eternity.
 

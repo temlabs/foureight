@@ -3,6 +3,7 @@ title: Why Don't You Care About Where You're Going?
 tags: 
 description: Ring ring, it's time to wake up
 date: 2021-03-30
+hide: "true"
 ---
 It wasn't long ago that my friend received an eviction notice. In 3 months, he would need to be out of the property with keys returned and the property restored to its initial state. The date of this deadline had been issued, and already the landlord was making arrangements for the next stage of this property's life.
 

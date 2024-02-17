@@ -3,6 +3,7 @@ title: Story Man
 tags:
   - poem
 date: 2019-02-12
+hide: "true"
 ---
 The night was cool, the roads were empty.
 Not a ping from a phone, the chatter of tv heard at no home.

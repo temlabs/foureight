@@ -58,7 +58,6 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   const validLinks = new Set(data.keys())
   for (const [source, details] of data.entries()) {
     const outgoing = details.links ?? []
-
     for (const dest of outgoing) {
       if (validLinks.has(dest)) {
         links.push({ source: source, target: dest })
