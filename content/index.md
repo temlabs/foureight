@@ -1,6 +1,6 @@
 ---
-title: About
-tags: []
+title: about
+tags:
 ---
 <audio controls>   <source src="https://sqgvtcdvpiyrlxjujdjr.supabase.co/storage/v1/object/public/audio/about.mp3?t=2024-02-07T13%3A42%3A39.274Z" type="audio/mpeg">   Your browser does not support the audio element. </audio>
 
