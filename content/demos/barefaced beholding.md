@@ -1,7 +1,7 @@
 ---
 title: barefaced beholding
 tags:
-  - poem
+  - poetry
 description: who knows u?
 date: 2020-10-18
 ---
